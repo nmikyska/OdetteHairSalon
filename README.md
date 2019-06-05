@@ -1,2 +1,2 @@
 # OdetteHairSalon
-Final project for HTML/CSS course with PHP contact form functionality
+Built from scratch with HTML, CSS, jQuery, & PHP for the contact form
