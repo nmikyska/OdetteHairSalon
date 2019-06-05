@@ -9,9 +9,8 @@ html{
 
 
 body{
-	background-color: #fbf5f0;
-	/*background-color: #f5e7e7;
-	background-color: #eacbcb;*/
+	background-color: #fff9fe;
+	
 }
 #wrapper{
 	margin: 10px auto;
@@ -19,10 +18,7 @@ body{
 	
 	position: relative;
 	width: 1100px;
-	background: #fbf5f0;
-	/*background: #f5e7e7;
-	box-shadow: 0px 0px 20px #f5e7e7;
-	border-radius: 20px;*/
+	background: #fff9fe;
 	overflow: hidden;
 }
 #header{
@@ -35,22 +31,16 @@ h1{
 	text-align: center;
 	font-size: 70px;
 	font-family: 'Monsieur La Doulaise', cursive;
-	/*font-family: 'Miss Fajardose', cursive;*/
-	/*font-family: 'Lovers Quarrel', cursive;*/
 	width: 550px;
-	float: left;
-	/*margin-right: 300px;*/
-	margin-left: 40px;
-	/*border: 1px solid red;*/
-	margin-top: 10px;
-	
+	float: left;	
+	margin-left: 40px;	
+	margin-top: 10px;	
 }
 
 h2{
 	text-align: center;
 	font-size: 50px;
 	font-family: 'Monsieur La Doulaise', cursive;
-	/*font-family: 'Lovers Quarrel', cursive;*/
 	margin-top: 50px;
 	width: auto;
 	margin-right: 50px;
@@ -61,7 +51,6 @@ h3{
 	text-align: center;
 	font-size: 45px;
 	font-family: 'Monsieur La Doulaise', cursive;
-	/*font-family: 'Lovers Quarrel', cursive;*/
 	margin-bottom: 0px;
 	padding-bottom: 0px;
 	margin-right: 60px;
@@ -85,10 +74,6 @@ h3{
 	font-size: 18px;
 	padding-left: 50px;
 }
-
-
-
-
 #gallery li{
 	list-style: none;
 	display: inline-block;
@@ -113,25 +98,18 @@ h3{
 	opacity: 1;
 	transition: 1s ease;
 }
-
-
-
 #logo{
 	margin-top: 30px;
 	margin-left: 25px;
 	border-radius: 50px;
-	
-	
-	
 }
-#logo :hover, #logo a:visited:hover{
+/*#logo:hover, #logo a:visited:hover{
 	background: #ccc;
-}
+}*/
 
 #title{
 	width: auto;
 	float: right;
-	/*border: 2px solid black;*/
 	margin-top: 30px;
 	margin-left: 10px;
 	
@@ -143,9 +121,6 @@ h3{
 	line-height: 23px;
 	text-shadow: none;
 	margin-top: 20px;
-	/*margin-bottom: 20px;*/
-	/*margin-left: 205px;*/
-	/*border: 1px solid blue;*/
 	width: 250px;
 	float: right;
 	
@@ -230,7 +205,7 @@ h3{
 
 #nav a:hover, #nav a:visited:hover{
 	color: #000;
-	background: #ccc;
+	background: #f9edf8;
 	border: 1px solid #000;
 	overflow: hidden;
 }
@@ -381,7 +356,7 @@ label{
 }
 
 #submit:hover{
-	background-color: #ccc;
+	background-color: #f9edf8;
 }
 
 .submitCart{
@@ -393,7 +368,7 @@ label{
 }
 
 .submitCart:hover{
-	background-color: #ccc;
+	background-color: #f9edf8;
 }
 
 #reset{
@@ -406,7 +381,7 @@ label{
 }
 
 #reset:hover{
-	background-color: #ccc;
+	background-color: #f9edf8;
 	
 }
 
@@ -479,10 +454,9 @@ input{
 	}	
 	#nav > ul > li{
 		clear: none;
-		display: inline;
 		float: left;
 		min-width: 150px;
-		width: auto;
+		
 	}
 	#nav > ul > li > ul{
 		top: 100%;
@@ -515,8 +489,8 @@ input{
 		text-align: center;
 	}	
 	#logo{
-		
-		margin-left: 250px;
+		display: block;
+		margin:0 auto;
 		border-radius: 50px;
 	}
 	h1{
@@ -550,10 +524,11 @@ input{
 	#nav{
 		display: none;
 	}
-	#logo{
-		margin-left:150px;
+	/*#logo{
+		display: block;
+		margin: 0 auto;
 		border-radius: 50px;
-	}
+	}*/
 	h1{
 		font-size: 50px;
 	}
@@ -575,9 +550,9 @@ input{
 		text-decoration: none;
 		color: #000;
 	}
+	
 	#tinyNav li{
 		display: inline;
-		width: 300px;
 		background: #a3aec0;
 		text-align: center;
 		border-radius: 4px;
@@ -586,6 +561,10 @@ input{
 		margin: 4px;
 		line-height: 40px;
 	}
+	#tinyNav li:hover{
+		background-color: #f9edf8;
+	}
+	
 	#prices{
 		margin: 0;
 		width: 100%;
@@ -648,9 +627,7 @@ input{
 	.color{
 		font-size: 12px;
 	}
-	#logo{
-		margin-left: 90px;
-	}
+	
 	#submit{
 		margin: 0;
 		width: 100%;
